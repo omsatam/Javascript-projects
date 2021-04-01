@@ -177,9 +177,9 @@ function displayWinner(humanChoice,computerChoice,message){
       }
 
     humanChoiceImg = document.createElement("img");
-    humanChoiceImg.src = "static/" + humanChoice + ".png" ;
+    humanChoiceImg.src = "static/images/" + humanChoice + ".png" ;
     computerChoiceImg = document.createElement("img");
-    computerChoiceImg.src = "static/" + computerChoice + ".png" 
+    computerChoiceImg.src = "static/images/" + computerChoice + ".png" 
     messageDiv = document.createElement("h1")
     let messageHeading = message.value;
     messageDiv.append(messageHeading)
