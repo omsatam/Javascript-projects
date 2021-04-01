@@ -143,7 +143,7 @@ function randomChoose(choice){
 }
 function decideScore(humanChoice,computerChoice){
     rpsData = {
-        'rock' : {'scissor':0, 'rock': 0.5, 'paper': 1},
+        'rock' : {'paper':0, 'rock': 0.5, 'scissor': 1},
         'paper' : {'scissor':0, 'paper': 0.5, 'rock': 1, },
         'scissor' : {'rock': 0, 'scissor': 0.5, 'paper': 1}
     }
