@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blackJackGameContainer{
+    width: 75%;
+    margin: auto;
+    text-align:center;
+    border: 1px solid black;
+}
+.blackJackHeading, .blackJackResultHeading, .yourScore, .computerScore{
+    margin-top: 10px;
+    text-align: center;
+}
+.yourPlayingArea h3, .computerPlayingArea h3{
+    display: block;
+    margin: 0 auto;
+}
+.playBlackJackArea,.blackJackButtons{
+    background: url('../images/background.jpg') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    /* text-align: center; */
+    border: 1px solid black;
+}
+.blackJackCardsArea{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 450px;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding: 10px;
+}
+.yourPlayingArea img, .computerPlayingArea img{
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+}
+.yourPlayingArea, .computerPlayingArea{
+    border: 1px solid black;
+    display: flex;
+    height : 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 50%;
+}
+.blackJackButtons{
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+}
+.blackJackButtonDiv{
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 40%;
+    padding: 5px;
+}
+thead,tbody,th,td{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px;
+}
+.blackJackResultsArea{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
