@@ -36,14 +36,13 @@
     padding: 10px;
 }
 .yourPlayingArea img, .computerPlayingArea img{
-    height: 150px;
-    width: 100px;
+    height: 120px;
+    width: 80px;
     margin: 10px;
 }
 .yourPlayingArea, .computerPlayingArea{
     border: 1px solid black;
     display: flex;
-    height : 450px;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
