@@ -4,8 +4,8 @@
 let blackJackGame = {
     'you' : {'scoreSpan': '#yourblackJackScore', 'div': '.yourBlackJackCardsArea','score': 0},
     'computer' : {'scoreSpan': '#computerblackJackScore', 'div': '.computerBlackJackCardsArea','score': 0},
-    'cards' : ['1','2','3','4','5','6','7','8','9','10','J','Q','K'],
-    'cardsValue' : {'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'8':8,'9':9,'10':10,'J':10,'Q':10,'K':10},
+    'cards' : ['1','2','3','4','5','6','7','8','9','10','J','Q','k'],
+    'cardsValue' : {'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'8':8,'9':9,'10':10,'J':10,'Q':10,'k':10},
     'blackJackWins' : 0,
     'blackJackLosses' : 0,
     'blackJackDraws' : 0,
