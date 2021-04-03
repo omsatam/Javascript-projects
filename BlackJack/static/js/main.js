@@ -77,6 +77,7 @@ function blackJackDeal(){
     blackJackGame['scoreDisplayed'] = false
     if (blackJackGame['turnsOver'] === true){
         blackJackGame['isStand'] = false
+        blackJackGame['turnsOver'] = false
         let yourCards = document.querySelector(YOU['div']).querySelectorAll('img')
         let computerCards = document.querySelector(COMPUTER['div']).querySelectorAll('img')
 
