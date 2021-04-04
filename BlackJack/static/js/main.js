@@ -112,7 +112,7 @@ async function blackJackStand(){
             showCard(card,COMPUTER)
             updateScore(card,COMPUTER)
             showScore(COMPUTER)
-            await sleep(1000)
+            await sleep(1200)
         }
     blackJackGame['turnsOver'] = true
     let winner = computeWinner()
