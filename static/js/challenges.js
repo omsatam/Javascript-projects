@@ -8,7 +8,7 @@ getAge.addEventListener('click', () =>  {
     resultAge.textContent = ""
     let birthYear = prompt("Please Enter your birth year");
     let currentYear = new Date();
-    if (birthYear != 0) {
+    if (birthYear != 0 && birthYear != undefined) {
     ageInDays = (currentYear.getFullYear() - birthYear) * 365 ;
     let message = document.createTextNode("You are "+ ageInDays + " days old")
     var h1 = document.createElement('h1');
