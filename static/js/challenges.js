@@ -8,7 +8,7 @@ getAge.addEventListener('click', () =>  {
     resultAge.textContent = ""
     let birthYear = prompt("Please Enter your birth year");
     let currentYear = new Date();
-    if (birthYear != 0 && birthYear != undefined) {
+    if ((birthYear >= currentYear.getFullYear() - 120) && birthYear !== undefined && birthYear % 1 === 0) {
     ageInDays = (currentYear.getFullYear() - birthYear) * 365 ;
     let message = document.createTextNode("You are "+ ageInDays + " days old")
     var h1 = document.createElement('h1');
@@ -16,6 +16,9 @@ getAge.addEventListener('click', () =>  {
     h1.appendChild(message);
     resultAge.appendChild(h1);
 }
+    else {
+        alert("Pleae enter a valid year");
+    }
 });
 // Resetting age on clicking Reset button
 resetAge.addEventListener('click', () =>  {
